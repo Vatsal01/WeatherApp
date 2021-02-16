@@ -1,0 +1,46 @@
+.registerbtn {
+  background-color: #ff944d ; 
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.container {
+  padding: 16px;
+  background-color:transparent !important;
+  
+
+}
+
+
+input[type=text]{
+  width: 20%;
+  padding: 16px 20px;
+  margin: 8px 0 ;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+h1{
+	
+    font-size: 52px;
+    text-align: center;
+	text-shadow: 2px 2px 5px #ffff33;
+	}
+h3{
+font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+   
+    text-align: center;
+}	
+body {
+    background-image: url("https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+font-family: 'Quicksand', sans-serif;
+}
