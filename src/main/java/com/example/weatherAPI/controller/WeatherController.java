@@ -32,7 +32,7 @@ public class WeatherController {
 		// Service class method getAPI is called with parameters City.
 		// Based on which the API for specific city will be called
 
-		DataFromAPI dataFromApi = service.getAPI(wt.getCity(), wt.getUnit()); // For API call and getting the data for
+		DataFromAPI dataFromApi = service.callAPI(wt.getCity(), wt.getUnit()); // For API call and getting the data for
 																				// specific city.
 
 		// To assign specific unit based on the value of radio button(1:Celsius &
