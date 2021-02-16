@@ -17,7 +17,7 @@ public class Service {
 	
 	private DataFromAPI dataFromApi = new DataFromAPI() ;
 
-	public DataFromAPI getAPI(String city, byte unit) throws 
+	public DataFromAPI callAPI(String city, byte unit) throws 
 	IOException, ParseException, java.text.ParseException, NullPointerException
 	{
 	
